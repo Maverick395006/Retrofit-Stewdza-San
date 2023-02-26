@@ -54,7 +54,7 @@ dependencies {
     // Retrofit + GSON
     implementation "com.squareup.retrofit2:retrofit:$RetrofitVersion"
     implementation "com.squareup.retrofit2:converter-gson:$RetrofitVersion"
-//    implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
 
     // Coroutines
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$CoroutinesVersion"
